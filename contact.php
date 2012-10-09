@@ -4,19 +4,23 @@
 	<div class="control-group">
 		<label class="control-label" for="inputName">Name</label>
 		<div class="controls">
-			<input type="text" id="inputName" placeholder="Name">
+			<input type="text" id="inputName" placeholder="Name" class="error">
 		</div>
 	</div>
 	<div class="control-group">
 		<label class="control-label" for="inputEmail">Email</label>
 		<div class="controls">
-			<input type="text" id="inputEmail" placeholder="Email">
+			<input type="text" id="inputEmail" placeholder="Email" class="error">
 		</div>
 	</div>
 	<div class="control-group">
 		<label class="control-label" for="inputMessage">Message</label>
 		<div class="controls">
-			<textarea id="inputMessage" placeholder="Type your message here.."></textarea>
+			<textarea id="inputMessage" placeholder="Type your message here.." class="error" ></textarea>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
 			<button disabled = "true" type="submit" id="submit" class="btn btn-danger disabled" name="submit">Submit</button>
 		</div>
 	</div>
