@@ -15,12 +15,6 @@ html, body{
 }
 #footer-wrapper{
 }
-a{
-	-webkit-transition-duration: 0.20s;
-	-webkit-transition-timing-function: ease-out;
-	-moz-transition-duration: 0.20s;
-	-moz-transition-timing-function: ease-out;	
-}
 #footer-text{
 	text-align: center;
 	font: bold 1.1em Arial, sans-serif;
@@ -186,96 +180,4 @@ h4{
 	font-size: .7em;
 	text-transform: none;
 	font-style: italic;
-}
-.logo{
-	width: 50px;
-	height: 64px;
-	margin-top: -20px;
-}
-#left{
-	text-align: right;
-	width: 300px;
-	float: left;
-	margin-right: 50px; 
-}
-#right{
-	width: 600px;
-	float: right;
-
-}
-.btn-big{
-	margin: 10px auto 10px auto;
-	font-size: 2em;
-	height: 70px;
-}
-a {text-decoration: none;}
-
-a img {border: none;}
-a:link, a:visited {
-	color: #0070C0;
-}
-
-html body a:hover {
-	color: #FF4500;
-}
-
-span.head{
-	color: #0070C0;
-	font-weight: bold;
-	font-size: 1.2em;
-}
-
-span.right-head{
-	color: #0070C0;
-	float: right;
-	font-weight: bold;
-	font-size: 1.2em;
-	right:80px;
-
-}
-span.name1{
-	color: #0070C0;
-	font-size: 3em;
-	text-shadow: 0 0 0.1em #0070C0;
-	-webkit-transition-duration: 0.30s;
-	-webkit-transition-timing-function: ease-out;
-	-moz-transition-duration: 0.30s;
-	-moz-transition-timing-function: ease-out;	
-}
-span.name2{
-	color: #FF4500;
-	font-size: 3em;
-	text-shadow: 0 0 0.1em #FF4500;
-	-webkit-transition-duration: 0.30s;
-	-webkit-transition-timing-function: ease-out;
-	-moz-transition-duration: 0.30s;
-	-moz-transition-timing-function: ease-out;	
-}
-h1{
-	color:#616158;
-}
-h2{
-	 color:#404040;
-}
-.hero-unit .btn{
-	color: #ffffff !important;
-}
-.our-clients p{
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.error{
-	background-color: #F8DBDB !important;
-	border: 1px solid #E77776 !important;
-}
-.success{
-	background-color: #9EDB9E !important;
-	border: 1px solid #5BB75B !important;
-}
-.message-success{
-	width: 400px;
-	background-color: #9EDB9E !important;
-	border: 1px solid #5BB75B !important;
-	text-align: center;
-	margin: 0 auto 0 auto;
 }

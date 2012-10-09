@@ -1,6 +1,6 @@
 <?php include('includes/header.html'); ?>
 <?php //require_once('includes/contact-validate.php'); ?>
-<form id="contact-form" name="contact-form" method ="POST" class="form-horizontal">
+<form id="contact-form" name="contact-form" method ="POST" class="form-horizontal" action="contact-validate.php">
 	<div class="control-group">
 		<label class="control-label" for="inputName">Name</label>
 		<div class="controls">
@@ -23,18 +23,23 @@
 </form>
 <script type="text/javascript" src="validation.js"></script>
 <script>
-$(document).ready( function (e){
-if(!$('#submit').hasClass('disabled')){
-	$('form').on('submit', function(e){
+$(document).ready( function (){
+	$('#submit').click( function(e){
 		e.preventDefault();
-		if( validateForm() ){
-			alert('Validated!');
-		}
-		//$.post('/contact-submit', $('contact-form').serialize(), function(response){
-		//	console.log(response);
-		//});
+		var dataString = 'name=' + $('#inputName').val() + '&email=' + $('#inputEmail').val() + '&message=' + $('#inputMessage').val();
+		$.ajax({
+			type: "POST",
+			url: "contact-validate.php",
+			data: dataString,
+			success: function(){
+				$('#contact-form').html("<div id ='message' class='message-success'></div>");
+				$('#message').hide();
+				$('#message').html("<h2>Contact Form Submitted Successfully!</h2><p>We will be in contact with you shortly. Thank you.</p>");
+				$('#message').fadeIn(500);
+			}
+		});
+		return false;
 	});
-}
 });
 </script>
 <?php include('includes/footer.html'); ?>
