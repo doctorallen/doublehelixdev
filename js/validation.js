@@ -9,7 +9,7 @@ $(document).ready( function (){
 	message.blur(validateMessage, validateForm);
 
 	name.keyup(validateName, validateForm);
-	name.keyup(validateEmail, validateForm);
+	email.keyup(validateEmail, validateForm);
 	message.keyup(validateMessage, validateForm);
 	
 	function validateForm(){
