@@ -159,10 +159,12 @@ h4{
 }
 .navigation li a:hover{
 	width: 130px;
-	background-color: #4B4543; 
-	color: #FFFFFF;
-	border-bottom: solid 3px #FF4500;
+	background-color: #0070C0; 
+	color: #FFF;
 	text-decoration: none;
+	-moz-box-shadow:inset 0px 0px 5px rgba(0,0,0,0.3), inset 0px -3px 0px #FF4500;
+	-webkit-box-shadow:inset 0px 0px 5px rgba(0,0,0,0.3), inset 0px -3px 0px #FF4500;
+	box-shadow:inset 0px 0px 5px rgba(0,0,0,0.3), inset 0px -3px 0px #FF4500;
 }
 .navigation li a:active{
 	color: #ff4500;
@@ -183,9 +185,11 @@ h4{
 }
 .navigation .info{
 	display: none;
-	font-size: .7em;
+	padding: 2px 5px 0 5px;
+	font-size: .8em;
 	text-transform: none;
 	font-style: italic;
+	line-height: 100%;
 }
 .logo{
 	width: 50px;
