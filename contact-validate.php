@@ -1,6 +1,6 @@
 <?php
 define ("TO_NAME", "David Allen");
-define ("TO_EMAIL", "drallen1@plymouth.edu");
+define ("TO_EMAIL", "doublehelixdev@gmail.com");
 define ("EMAIL_SUBJECT", "Double Helix Dev Contact");
 
 $success = false;
