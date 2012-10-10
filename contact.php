@@ -1,5 +1,10 @@
 <?php include('includes/header.html'); ?>
 <?php //require_once('includes/contact-validate.php'); ?>
+<noscript>
+	<div class="alert alert-error">
+		<p>Javascript must be enabled to use this contact form.</p>
+	</div>
+</noscript>
 <form id="contact-form" name="contact-form" method ="POST" class="form-horizontal" action="contact-validate.php">
 	<div class="control-group">
 		<label class="control-label" for="inputName">Name</label>
