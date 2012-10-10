@@ -25,7 +25,7 @@
 		</div>
 	</div>
 </form>
-<script type="text/javascript" src="validation.js"></script>
+<script type="text/javascript" src="js/validation.js"></script>
 <script>
 $(document).ready( function (){
 	$('#submit').click( function(e){
