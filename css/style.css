@@ -284,3 +284,9 @@ h2{
 	text-align: center;
 	margin: 0 auto 0 auto;
 }
+#inputMessage{
+	width: 300px;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 100%;
+}

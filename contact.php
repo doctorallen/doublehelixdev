@@ -21,7 +21,7 @@
 	<div class="control-group">
 		<label class="control-label" for="inputMessage">Message</label>
 		<div class="controls">
-			<textarea id="inputMessage" placeholder="Type your message here.." class="error" ></textarea>
+			<textarea rows="5" id="inputMessage" placeholder="Type your message here.." class="error" ></textarea>
 		</div>
 	</div>
 	<div class="control-group">
@@ -33,6 +33,13 @@
 <script type="text/javascript" src="js/validation.js"></script>
 <script>
 $(document).ready( function (){
+	$('#inputMessage').on('keydown', function(){
+		var innerHeight = $(this).scrollTop() + $(this).innerHeight();
+		var outerHeight = $(this).outerHeight();
+		if( innerHeight > outerHeight ){
+			$(this).height(innerHeight);
+		}	
+	});
 	$('#submit').click( function(e){
 		e.preventDefault();
 		var dataString = 'name=' + $('#inputName').val() + '&email=' + $('#inputEmail').val() + '&message=' + $('#inputMessage').val();
