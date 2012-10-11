@@ -31,15 +31,10 @@
 	</div>
 </form>
 <script type="text/javascript" src="js/validation.js"></script>
+<script type="text/javascript" src="js/elastic.js"></script>
 <script>
 $(document).ready( function (){
-	$('#inputMessage').on('keydown', function(){
-		var innerHeight = $(this).scrollTop() + $(this).innerHeight();
-		var outerHeight = $(this).outerHeight();
-		if( innerHeight > outerHeight ){
-			$(this).height(innerHeight);
-		}	
-	});
+	$('#inputMessage').elastic();
 	$('#submit').click( function(e){
 		e.preventDefault();
 		var dataString = 'name=' + $('#inputName').val() + '&email=' + $('#inputEmail').val() + '&message=' + $('#inputMessage').val();

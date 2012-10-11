@@ -286,6 +286,7 @@ h2{
 }
 #inputMessage{
 	width: 300px;
+	max-height: 200px;
 	padding: 10px;
 	overflow: hidden;
 	line-height: 100%;
