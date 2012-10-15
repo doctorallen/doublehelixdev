@@ -261,9 +261,14 @@ h1{
 }
 h2{
 	 color:#404040;
+	 border-bottom: 1px dashed #CCC;
 }
 .hero-unit .btn{
 	color: #ffffff !important;
+}
+.our-clients{
+	padding:10px;
+	border-left: 1px dashed #CCC;  
 }
 .our-clients p{
 	padding-top: 10px;
@@ -290,4 +295,32 @@ h2{
 	padding: 10px;
 	overflow: hidden;
 	line-height: 100%;
+}
+#contact-form{
+	width: 600px;
+	padding: 10px;
+	border: 1px dashed #ccc;
+}
+.hero-unit{
+	border: 1px dashed #CCC;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+.work{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.work-title{
+	color: #454545;
+	font-size: 1.3em;
+	font-weight: 400;
+	font-family: PT Sans, sans-serif;
+}
+.thumb{
+	width: 150px;
+	height: 100px;
+	display: block;
+	border: 1px dashed #CCC;
 }

@@ -14,6 +14,7 @@
 			<div class="our-clients">
 				<h4>Don't take our word for it..</h4>
 				<p>Double Helix Development created a website for our business, and now our client base is up 10 fold! <br> --Anonymous</p>
+				<p>The site that Double Helix Development made for us was amazing! <br> --Ginger Bread Man</p>
 			</div>
 		</div>
 	</div>
