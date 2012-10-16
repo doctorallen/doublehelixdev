@@ -1,4 +1,3 @@
-<?php include('includes/header.html'); ?>
 <div class ="row-fluid">
 	<div class="span12">
 		<div class ="span9">
@@ -19,4 +18,3 @@
 		</div>
 	</div>
 </div>
-<?php include('includes/footer.html'); ?>

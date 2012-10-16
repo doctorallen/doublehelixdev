@@ -309,8 +309,7 @@ h2{
 }
 .work{
 	float: left;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px;
 }
 .work-title{
 	color: #454545;
@@ -319,8 +318,16 @@ h2{
 	font-family: PT Sans, sans-serif;
 }
 .thumb{
-	width: 150px;
-	height: 100px;
+	width: 400px;
+	height: 200px;
+	opacity: 0.7;
 	display: block;
 	border: 1px dashed #CCC;
+	-webkit-transition-duration: 0.30s;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-duration: 0.30s;
+	-moz-transition-timing-function: ease-out;	
+}
+.thumb:hover{
+	opacity: 1;
 }

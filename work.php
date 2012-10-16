@@ -1,10 +1,12 @@
-<?php include('includes/header.html'); ?>
 <div class="work">
 	<span class="work-title">Fans International</span>
-	<img class="thumb" src="images/logo-150.png">
+	<a href="clients/fans.php"><img class="thumb" src="images/logo-150.png"></a>
 </div>
 <div class="work">
 	<span class="work-title">Fans International</span>
-	<img class="thumb" src="images/logo-150.png">
+	<a href="clients/fans.php"><img class="thumb" src="images/logo-150.png"></a>
 </div>
-<?php include('includes/footer.html'); ?>
+<div class="work">
+	<span class="work-title">Fans International</span>
+	<a href="clients/fans.php"><img class="thumb" src="images/logo-150.png"></a>
+</div>

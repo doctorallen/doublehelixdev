@@ -1,11 +1,15 @@
+<?php include('config.php') ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
-	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="http://doublehelixdev.com/js/jquery-1.7.2.min.js"></script>
+	<script src="http://doublehelixdev.com/js/jquery-ui-1.8.18.custom.min.js"></script>
+	<script src="http://doublehelixdev.com/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript">
+	$(function(){
+		fadeElements( '.fade', 700, 1);
+	});
 
 	function fadeElements( e, s, o ){
 		var $fade = $(e);
@@ -38,12 +42,12 @@
 	<div id="site-container">
 		<div id="header">
 			<div id="navigation">
-				<a id="brand" href="http://doublehelixdev.com"><span class="name1">Double</span><span class="name2">Helix</span><span class="name1">Development</span><img class="logo" src="../images/logo-50.png"></a>
+			<a id="brand" href="<?=SITE_URL?>"><span class="name1">Double</span><span class="name2">Helix</span><span class="name1">Development</span><img class="logo" src="../images/logo-50.png"></a>
 				<ul class="navigation">
-					<li><a href="http://www.doublehelixdev.com/work">Our Work<span class="info">Our previous clients</span></a></li>
-					<li><a href="http://www.doublehelixdev.com/contact">Contact Us<span class="info">Get in contact with us!</span></a></li>
-					<li><a href="http://www.doublehelixdev.com/services">Services<span class="info">What services do we offer?</span></a></li>
-					<li><a href="http://www.doublehelixdev.com">Client Portal<span class="info">Login to access your site</span></a></li>
+					<li><a href="<?=SITE_URL?>/work">Our Work<span class="info">Our previous clients</span></a></li>
+					<li><a href="<?=SITE_URL?>/contact">Contact Us<span class="info">Get in contact with us!</span></a></li>
+					<li><a href="<?=SITE_URL?>/services">Services<span class="info">What services do we offer?</span></a></li>
+					<li><a href="<?=SITE_URL?>">Client Portal<span class="info">Login to access your site</span></a></li>
 				</ul>
 			</div>
 		</div>

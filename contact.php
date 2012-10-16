@@ -1,5 +1,3 @@
-<?php include('includes/header.html'); ?>
-<?php //require_once('includes/contact-validate.php'); ?>
 <noscript>
 	<div class="alert alert-error">
 		<p>Javascript must be enabled to use this contact form.</p>
@@ -53,6 +51,5 @@ $(document).ready( function (){
 	});
 });
 </script>
-<?php include('includes/footer.html'); ?>
 
 
