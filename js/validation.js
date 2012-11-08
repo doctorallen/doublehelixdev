@@ -4,6 +4,7 @@ $(document).ready( function (){
 	var email = $('#inputEmail');
 	var message = $('#inputMessage');
 	var submit = $('#submit');
+
 	name.blur(validateName, validateForm);
 	email.blur(validateEmail, validateForm);
 	message.blur(validateMessage, validateForm);
