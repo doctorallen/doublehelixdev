@@ -1,20 +1,9 @@
-<div class ="row-fluid">
-	<div class="span12">
-		<div class ="span9">
-			<div class="hero-unit">
-				<h1>What do we do?</h1>
-				<p>We make redesigned websites for small businesses.</p>
-				<a href="/services" class="btn btn-primary">Learn More</a>
-				<a href="/work" class="btn btn-success">Like What?</a>
-				<a href="/contact" class="btn btn-info">I want one!</a>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="our-clients">
-				<h4>Don't take our word for it..</h4>
-				<p>Double Helix Development created a website for our business, and now our client base is up 10 fold! <br> --Anonymous</p>
-				<p>The site that Double Helix Development made for us was amazing! <br> --Ginger Bread Man</p>
-			</div>
-		</div>
-	</div>
-</div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat enim, bibendum ac lacinia ut, laoreet vitae sapien. Curabitur sit amet risus eget quam gravida tristique. Maecenas et justo orci, nec imperdiet arcu. Fusce tempus purus blandit nulla rutrum ac pretium velit faucibus. Nullam pellentesque imperdiet mauris, ac molestie nibh dictum vel. Donec non nibh varius nulla viverra ornare. Nulla vestibulum, enim eu pellentesque porttitor, arcu lacus adipiscing elit, sit amet iaculis justo lectus eget enim. Maecenas quis nisl velit, nec ultricies turpis. Sed euismod, purus eget sollicitudin accumsan, dolor sem semper augue, mollis tristique diam diam a nibh. Maecenas mollis diam non ipsum vulputate pretium.
+
+Mauris diam ligula, aliquet a cursus a, vestibulum ut mi. Integer ac gravida nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus luctus mauris blandit erat condimentum varius. Cras venenatis lacinia pharetra. Phasellus eu porttitor ligula. Cras non massa lorem, ac laoreet augue. Aliquam eros diam, lobortis sed feugiat in, pulvinar vel quam. In diam metus, ultrices at pulvinar in, varius sit amet lectus. Nulla ipsum odio, bibendum vel porta eget, porta id elit. Quisque quam orci, molestie quis consequat vel, dignissim tincidunt nulla. Duis ac imperdiet orci. Cras viverra nunc nec orci tristique pulvinar. Mauris accumsan vestibulum dolor ac vehicula. Phasellus libero nunc, tincidunt ac dapibus vitae, congue hendrerit mi. Phasellus non lorem feugiat nunc egestas pharetra.
+
+Pellentesque at justo tellus. Nam pulvinar orci quis nunc volutpat ultrices vulputate lectus iaculis. Phasellus elit eros, molestie ac rhoncus vitae, varius iaculis quam. Integer et erat elit, ut consequat ligula. Vivamus ligula ante, elementum facilisis suscipit a, tempor ac eros. Suspendisse a posuere mauris. Nam tristique, diam et aliquet ornare, odio tellus dapibus enim, ut placerat risus felis at metus. Maecenas congue rutrum arcu, id convallis diam sollicitudin eget. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Nullam tristique placerat fringilla. Mauris condimentum aliquet est ut gravida. Suspendisse in mattis nibh. Aliquam a eros sem. Ut non blandit velit. Nulla facilisi. Suspendisse sit amet tellus justo.
+
+Quisque lacinia lectus nec ipsum aliquet posuere. Cras non tortor a quam accumsan porttitor ut sagittis turpis. Curabitur eu nisl et erat sodales scelerisque fringilla sed urna. Nullam sed nunc at sem pretium porttitor at nec tortor. Suspendisse potenti. Quisque consequat faucibus viverra. Sed vehicula dictum interdum. Curabitur consectetur mollis tempus. In tincidunt lacus ut lectus dignissim pretium.
