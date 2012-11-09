@@ -5,11 +5,19 @@
 <head>
 	<script src="http://doublehelixdev.com/js/jquery-1.7.2.min.js"></script>
 	<script src="http://doublehelixdev.com/js/script.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Exo|PT+Sans|Arvo|Open+Sans+Condensed:300|Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Exo|PT+Sans|Arvo|Open+Sans+Condensed:300|Open+Sans:300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	
 	<title>Double Helix Development</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
+<script>
+	$('.nav-li').click( function(){
+		$(this).animate(
+			{
+				font-size: 2em
+			});
+	});
+</script>
 </head>
 <body>			
 		<div id="header">
@@ -20,6 +28,13 @@
 					<span class="brand">Development</span>
 				</a>
 			</div>
+		<div id="navigation">
+			<ul class="nav">
+				<li class="nav-li"><a href="clients">Clients</a></li>
+				<li class="nav-li"><a href="contact">Contact</a></li>
+				<li class="nav-li"><a href="portfolio">Portfolio</a></li>
+			</ul>
+		</div>
 		</div>
 	<div id="site-container">
 			<div id="main">
