@@ -5,5 +5,17 @@
 			Copyright 2012 Double Helix Development
 		</div>
 	</div>
+	<script>
+		$(document).ready( function(){
+			$('.nav-li a').mouseover( function (){
+				$('#header').animate({height: "100%"}, 200);
+				$(this).animate({fontSize: '2.5em'}, 200 );
+			});
+			$('.nav-li a').mouseout( function (){
+				$('#header').animate({height: "100%"}, 200);
+				$(this).animate({fontSize: '1.75em'}, 200 );
+			});
+		});
+	</script>
 	</body>
 </html>
