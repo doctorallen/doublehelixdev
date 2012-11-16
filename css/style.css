@@ -132,7 +132,7 @@ a img {border: none;}
 	line-height: 100%;
 }
 #contact-form{
-	width: 30em;
+	overflow: hidden;
 	padding: .5em;
 }
 .hero-unit{
