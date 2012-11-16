@@ -1,3 +1,7 @@
+div{
+	width: 100%;
+	overflow: hidden;
+}
 body{
 	/*background: #4B4543;*/
 	background: #FFF;
@@ -226,18 +230,29 @@ a img {border: none;}
 	padding: 0 5px;
 	color: #CCC;
 }
+.client{
+	border: 1px solid #CCC;
+	display: inline-block;
+}
+.clients{
+	text-align: center;
+}
 .work{
-	float: left;
-	margin: 1em 4em 1em 4em;
+	display:inline-block;
+	margin: 1em 4em 1em 0;
 }
 .work-title{
-	color: #454545;
+	display:block;
+	color: #FFF;
+	text-shadow: 0 1px 0 rgba(0,0,0.1);
+	padding: 0 .5em 0 .5em;
+	background: #383332;
 	font-size: 1.3em;
 	font-weight: 400;
-	font-family: PT Sans, sans-serif;
 }
 .thumb{
 	opacity: 0.7;
+	margin: 0 auto 0 auto;
 	display: block;
 	-webkit-transition-duration: 0.30s;
 	-webkit-transition-timing-function: ease-out;
