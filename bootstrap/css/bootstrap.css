@@ -2756,7 +2756,7 @@ button.close {
 .btn-primary[disabled] {
   background-color: #0055cc;
   *background-color: #004ab3;
-}
+m
 
 .btn-primary:active,
 .btn-primary.active {
