@@ -2,7 +2,7 @@
 	<a href="fans" class="work">
 		<div class="client">
 			<img class="thumb" src="../images/logo-150.png">
-			<div class="clients-header none">
+			<div class="clients-header">
 				<h1 class="work-title">Fans International</h1>
 			</div>
 		</div>
@@ -10,7 +10,7 @@
 	<a href="fans" class="work">
 		<div class="client">
 			<img class="thumb" src="../images/logo-150.png">
-			<div class="clients-header none">
+			<div class="clients-header">
 				<h1 class="work-title">Fans Stuff</h1>
 			</div>
 		</div>
@@ -18,7 +18,7 @@
 	<a href="fans" class="work">
 		<div class="client">
 			<img class="thumb" src="../images/logo-150.png">
-			<div class="clients-header none">
+			<div class="clients-header">
 				<h1 class="work-title">Fans Stuffer</h1>
 			</div>
 		</div>
@@ -26,20 +26,15 @@
 </div>
 <script>
 	$(document).ready(function(){
-		var stateTimer=false;
-		$('.client').mouseenter( function() {
-			clearTimeout(stateTimer);
-			var title = $(this).children('.clients-header');
-			$(title).fadeIn();
-			$(title).removeClass('none');
-		});
-		$('.client').mouseleave( function() {
-			var title = $(this).children('.clients-header');
-			stateTimer = setTimeout(function(){
-				$(title).fadeOut( function(){
-					$(title).addClass('none');
-				});
-			});
-		});
+		$('.client').hover(
+			function(){
+				var client = $(this);
+				client.find('.clients-header').stop(true,true).animate({opacity:1}, 400);
+			},
+			function(){
+				var client = $(this);
+				client.find('.clients-header').stop(true,true).animate({opacity:0}, 400);
+			}
+		).find('.clients-header').css('opacity',0);
 	});
 </script>
