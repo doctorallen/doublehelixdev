@@ -24,17 +24,3 @@
 		</div>
 	</a>
 </div>
-<script>
-	$(document).ready(function(){
-		$('.client').hover(
-			function(){
-				var client = $(this);
-				client.find('.clients-header').stop(true,true).animate({opacity:1}, 400);
-			},
-			function(){
-				var client = $(this);
-				client.find('.clients-header').stop(true,true).animate({opacity:0}, 400);
-			}
-		).find('.clients-header').css('opacity',0);
-	});
-</script>
