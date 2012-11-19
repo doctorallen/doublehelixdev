@@ -26,15 +26,20 @@
 </div>
 <script>
 	$(document).ready(function(){
+		var stateTimer=false;
 		$('.client').mouseenter( function() {
+			clearTimeout(stateTimer);
 			var title = $(this).children('.clients-header');
-			$(title).fadeIn(200);
+			$(title).fadeIn();
 			$(title).removeClass('none');
 		});
 		$('.client').mouseleave( function() {
 			var title = $(this).children('.clients-header');
-			$(title).fadeOut();
-			$(title).addClass('none');
+			stateTimer = setTimeout(function(){
+				$(title).fadeOut( function(){
+					$(title).addClass('none');
+				});
+			});
 		});
 	});
 </script>
