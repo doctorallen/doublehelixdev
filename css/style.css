@@ -165,14 +165,15 @@ a img {border: none;}
 	padding: 0;
 }
 .nav li{
+	margin-top: .5em;
+	margin-bottom: .5em;
 	list-style-type: none;
 	display: block;
 }
 .nav li a{
 	color: #FFF;
-	padding: .5em;
-	padding-top: .1em;
 	font-size: 2.75em;
+	padding: 0 .5em 0 .5em;
 	font-family: Open Sans;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
 }
@@ -286,10 +287,12 @@ a img {border: none;}
 		font-size: .6em;
 	}
 	.nav li a{
-		margin: .8em;
+		margin: .5em;
+		padding: .1em .5em .5em .5em;
 	}
 	.nav li{
 		display: inline-block;
+		margin: 0;
 	}
 }
 @media all and (min-width: 768px){
