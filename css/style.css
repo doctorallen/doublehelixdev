@@ -1,6 +1,3 @@
-div{
-	width: 100%;
-}
 body{
 	/*background: #4B4543;*/
 	background: #FFF;
@@ -126,13 +123,15 @@ a img {border: none;}
 	margin: 0 auto 0 auto;
 }
 #inputMessage{
-	width: 300px;
 	max-height: 200px;
+	width: 202px;
 	padding: .5em;
 	overflow: hidden;
 	line-height: 100%;
 }
 #contact-form{
+	margin: 0 auto 0 auto;
+	width: 212px;
 	overflow: hidden;
 	padding: .5em;
 }
@@ -294,6 +293,13 @@ a img {border: none;}
 		display: inline-block;
 		margin: 0;
 	}
+	#contact-form{
+		width: 100%;
+		margin: 0;
+	}
+	#inputMessage{
+		width: 275px;
+	}	
 }
 @media all and (min-width: 768px){
 	#header{
