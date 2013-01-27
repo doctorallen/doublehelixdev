@@ -3,30 +3,33 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-	<script src="http://doublehelixdev.com/js/jquery-1.7.2.min.js"></script>
-	<script src="http://doublehelixdev.com/js/jquery-ui-1.8.18.custom.min.js"></script>
-	<script src="http://doublehelixdev.com/bootstrap/js/bootstrap.js"></script>
+	<script src="http://doublehelixdev.com/js/jquery-1.8.2.min.js"></script>
 	<script src="http://doublehelixdev.com/js/script.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Exo|PT+Sans|Arvo|Open+Sans+Condensed:300|Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Exo|PT+Sans|Arvo|Open+Sans+Condensed:300|Open+Sans:300,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
 	
 	<title>Double Helix Development</title>
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body>			
-	<div id="site-container">
 		<div id="header">
-			<div id="navigation">
-			<a id="brand" href="<?=SITE_URL?>"><span class="name1">Double</span><span class="name2">Helix</span><span class="name1">Development</span><img class="logo" src="../images/logo-50.png"></a>
-				<ul class="navigation">
-					<li><a href="<?=SITE_URL?>/clients">Our Clients<span class="info">Our previous clients</span></a></li>
-					<li><a href="<?=SITE_URL?>/contact">Contact Us<span class="info">Get in contact with us!</span></a></li>
-					<li><a href="<?=SITE_URL?>/services">Services<span class="info">What services do we offer?</span></a></li>
-					<li><a href="<?=SITE_URL?>">Client Portal<span class="info">Login to access your site</span></a></li>
-				</ul>
+			<div class="brand-container">
+				<a href="http://www.doublehelixdev.com">
+					<span class="brand orange">Double</span>
+					<span class="brand blue">Helix</span>
+					<span class="brand orange">Development</span>
+				</a>
 			</div>
+		<div id="navigation">
+			<ul class="nav">
+				<li class="nav-li home"><a href="/">Home</a></li>
+				<li class="nav-li clients"><a href="/clients">Clients</a></li>
+				<li class="nav-li contact"><a href="/contact">Contact</a></li>
+				<li class="nav-li services"><a href="/services">Services</a></li>
+			</ul>
 		</div>
+		</div>
+	<div id="site-container">
 			<div id="main">
-				<div id="page">
 		
