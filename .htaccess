@@ -1,13 +1,5 @@
 php_value include_path ".:/srv/www/doublehelixdev.com/public_html"
-ErrorDocument 404 /404.php
-<FilesMatch "\.php$">
-# set the prepend file setting
-php_value auto_prepend_file "/srv/www/doublehelixdev.com/public_html/includes/header.html"
-php_value auto_append_file "/srv/www/doublehelixdev.com/public_html/includes/footer.html"
-</FilesMatch>
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule .* $0.php
-
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /index.php [L]
 

@@ -29,7 +29,7 @@ $(document).ready(function(){
 	if(pathname == ''){
 		pathname = 'home';
 	}
-		$('.' + pathname +' a').addClass('active');
+	$('.' + pathname + ' a').addClass('active');
 });
 //Google analytics
   var _gaq = _gaq || [];

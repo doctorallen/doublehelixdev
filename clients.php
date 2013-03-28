@@ -1,5 +1,5 @@
 <div class="clients">
-	<a href="fans" class="work">
+	<a href="clients/fans" class="work">
 		<div class="client">
 			<img class="thumb" src="../images/logo-150.png">
 			<div class="clients-header">
@@ -7,7 +7,7 @@
 			</div>
 		</div>
 	</a>
-	<a href="fans" class="work">
+	<a href="clients/fans" class="work">
 		<div class="client">
 			<img class="thumb" src="../images/logo-150.png">
 			<div class="clients-header">
@@ -15,7 +15,7 @@
 			</div>
 		</div>
 	</a>
-	<a href="fans" class="work">
+	<a href="clients/fans" class="work">
 		<div class="client">
 			<img class="thumb" src="../images/logo-150.png">
 			<div class="clients-header">
